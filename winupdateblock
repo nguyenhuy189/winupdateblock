@@ -186,3 +186,5 @@
 0.0.0.0 oca.microsoft.com
 0.0.0.0 settings-win.data.microsoft.com
 0.0.0.0 ds.download.windowsupdate.com
+0.0.0.0 download.windowsupdate.com
+0.0.0.0 c-0001.c-msedge.net
