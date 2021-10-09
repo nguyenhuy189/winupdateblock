@@ -1,0 +1,189 @@
+# I do my best to catch this links from Web.
+# Many thanks to krathalan and in2016minewastaken from reddit !
+# Please send me your feedback to info@optik-berndt.de
+# to optimise this list.
+# Date June 2021
+# Ref: https://www.optik-berndt.de/WinUpdate.txt
+# testarea for unknown objects - please send me your opinion
+0.0.0.0 x1.c.lencr.org
+0.0.0.0 crl.globalsign.net
+0.0.0.0 crl.identrust.com
+0.0.0.0 evoke-windowsservices-tas.msedge.net
+0.0.0.0 arc.msn.com
+0.0.0.0 ris.api.iris.microsoft.com
+0.0.0.0 v10.events.data.microsoft.com
+0.0.0.0 d2nxq2uap88usk.cloudfront.net
+0.0.0.0 graph.facebook.com
+# BLOCK_tattle_to_Microsoft
+0.0.0.0 ^a-\d*\.a-msedge\.net$
+0.0.0.0 ^cs\d*\.wpc\.v0cdn\.net$
+0.0.0.0 a.ads1.msn.com
+0.0.0.0 a.ads2.msn.com
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 adnexus.net
+0.0.0.0 adnxs.com
+0.0.0.0 ads.msn.com
+0.0.0.0 ads1.msads.net
+0.0.0.0 ads1.msn.com
+0.0.0.0 az361816.vo.msecnd.net
+0.0.0.0 az512334.vo.msecnd.net
+0.0.0.0 choice.microsoft.com
+0.0.0.0 choice.microsoft.com.nsatc.net
+0.0.0.0 compatexchange.cloudapp.net
+0.0.0.0 corp.sts.microsoft.com
+0.0.0.0 corpext.msitadfs.glbdns2.microsoft.com
+0.0.0.0 df.telemetry.microsoft.com
+0.0.0.0 diagnostics.support.microsoft.com
+0.0.0.0 fe2.update.microsoft.com
+0.0.0.0 fe2.update.microsoft.com.akadns.net
+0.0.0.0 feedback.microsoft-hohm.com
+0.0.0.0 feedback.search.microsoft.com
+0.0.0.0 feedback.windows.com
+0.0.0.0 i1.services.social.microsoft.com
+0.0.0.0 i1.services.social.microsoft.com.nsatc.net
+0.0.0.0 oca.telemetry.microsoft.com
+0.0.0.0 oca.telemetry.microsoft.com.nsatc.net
+0.0.0.0 pre.footprintpredict.com
+0.0.0.0 preview.msn.com
+0.0.0.0 rad.msn.com
+0.0.0.0 redir.metaservices.microsoft.com
+0.0.0.0 reports.wes.df.telemetry.microsoft.com
+0.0.0.0 services.wes.df.telemetry.microsoft.com
+0.0.0.0 settings-sandbox.data.microsoft.com
+0.0.0.0 settings-win.data.microsoft.com
+0.0.0.0 sls.update.microsoft.com
+0.0.0.0 sls.update.microsoft.com.akadns.net
+0.0.0.0 sqm.df.telemetry.microsoft.com
+0.0.0.0 sqm.telemetry.microsoft.com
+0.0.0.0 sqm.telemetry.microsoft.com.nsatc.net
+0.0.0.0 statsfe1.ws.microsoft.com
+0.0.0.0 statsfe2.update.microsoft.com
+0.0.0.0 statsfe2.update.microsoft.com.akadns.net
+0.0.0.0 statsfe2.ws.microsoft.com
+0.0.0.0 survey.watson.microsoft.com
+0.0.0.0 telecommand.telemetry.microsoft.com
+0.0.0.0 telecommand.telemetry.microsoft.com.nsatc.net
+0.0.0.0 telemetry.appex.bing.net
+0.0.0.0 telemetry.microsoft.com
+0.0.0.0 telemetry.urs.microsoft.com
+0.0.0.0 vortex.data.microsoft.com
+0.0.0.0 vortex-bn2.metron.live.com
+0.0.0.0 vortex-cy2.metron.live.com
+0.0.0.0 vortex-sandbox.data.microsoft.com
+0.0.0.0 vortex-win.data.microsoft.com
+0.0.0.0 watson.live.com
+0.0.0.0 watson.microsoft.com
+0.0.0.0 watson.ppe.telemetry.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com.nsatc.net
+0.0.0.0 wes.df.telemetry.microsoft.com
+# 
+# NOTE_below_causes_issues_for_apps_using_Windows_Push_Notification_Services_such_as_live_tiles_and_onedrive
+# ^.*\.wns\.windows\.com$
+# 
+# BLOCK_updates_from_Microsoft_for_Win10_bandwidth_management
+# This_will_also_block_WinXP_and_all_later_OS_updates
+0.0.0.0 ^(.*\.)?windowsupdate\.microsoft\.com$
+0.0.0.0 ^(.*\.)?update\.microsoft\.com$
+0.0.0.0 ^(.*\.)?windowsupdate\.com$
+0.0.0.0 ^(.*\.)?dl\.delivery\.mp\.microsoft\.com$
+0.0.0.0 ^download\.microsoft\.com$
+0.0.0.0 ^wustat\.windows\.com$
+0.0.0.0 ^ntservicepack\.microsoft\.com$
+0.0.0.0 ^stats\.microsoft\.com$
+#
+#BLOCK_Apple_updates
+0.0.0.0 applednld.apple.com
+0.0.0.0 mesu.apple.com
+0.0.0.0 gdmf.apple.com 
+0.0.0.0 ocsp.apple.com 
+0.0.0.0 ocsp.int-x3.letsencrypt.org 
+0.0.0.0 swscan.apple.com 
+0.0.0.0 world-gen.g.aaplimg.com 
+0.0.0.0 xp.apple.com
+#
+# LISTE 2
+#
+0.0.0.0 login.live.com
+# Maps app/location services (find my device, auto night light):
+0.0.0.0 dev.virtualearth.net
+0.0.0.0 ecn.dev.virtualearth.net
+0.0.0.0 geo-prod.do.dsp.mp.microsoft.com
+0.0.0.0 t0.ssl.ak.dynamic.tiles.virtualearth.net
+0.0.0.0 t0.ssl.ak.tiles.virtualearth.net
+# Office:
+0.0.0.0 c.s-microsoft.com
+0.0.0.0 nexus.officeapps.live.com
+0.0.0.0 nexusrules.officeapps.live.com
+0.0.0.0 i.s-microsoft.com
+0.0.0.0 officeclient.microsoft.com
+0.0.0.0 outlook.office365.com
+0.0.0.0 products.office.com
+# Xbox (also used by Microsoft Store games like Minecraft):
+0.0.0.0 attestation.xboxlive.com
+0.0.0.0 cert.mgt.xboxlive.com
+0.0.0.0 def-vef.xboxlive.com
+0.0.0.0 device.auth.xboxlive.com
+0.0.0.0 eds.xboxlive.com
+0.0.0.0 help.ui.xboxlive.com
+0.0.0.0 licensing.xboxlive.com
+0.0.0.0 notify.xboxlive.com
+0.0.0.0 title.auth.xboxlive.com
+0.0.0.0 title.mgt.xboxlive.com
+0.0.0.0 www.xboxlive.com
+0.0.0.0 xbox.ipv6.microsoft.com
+0.0.0.0 xboxexperiencesprod.experimentation.xboxlive.com
+0.0.0.0 xflight.xboxlive.com
+0.0.0.0 xkms.xbolive.com
+0.0.0.0 xsts.auth.xboxlive.com
+# Windows Updates/Microsoft Store (app updates):
+0.0.0.0 ctldl.windowsupdate.com
+0.0.0.0 displaycatalog.mp.microsoft.com
+0.0.0.0 dl.delivery.mp.microsoft.com
+0.0.0.0 sls.update.microsoft.com
+# Network connectivity:
+0.0.0.0 msftncsi.com
+0.0.0.0 dns.msftncsi.com
+0.0.0.0 ipv6.msftncsi.com
+0.0.0.0 www.msftncsi.com
+# Miscellaneous:
+0.0.0.0 answers.microsoft.com
+0.0.0.0 support.microsoft.com
+0.0.0.0 settings-win.data.microsoft.com
+0.0.0.0 g.live.com
+#
+# added 200820
+# please send response to info@optik-berndt.de !!!!
+# 
+0.0.0.0 windows.policies.live.net
+# microsoft.com
+0.0.0.0 geover.prod.do.dsp.mp.microsoft.com
+0.0.0.0 windowsupdate.com
+0.0.0.0 akamai.net
+0.0.0.0 dellupdater.dell.com
+0.0.0.0 akamaiedge.net
+0.0.0.0 e673.dsce9.akamaiedge.net
+0.0.0.0 firefoxusercontent.com
+0.0.0.0 www.msftconnecttest.com
+# apple trash
+0.0.0.0 init.push.apple.com
+0.0.0.0 api-glb.smoot.apple.com
+0.0.0.0 fmip.fe.apple-dns.net
+0.0.0.0 apple-dns.net
+0.0.0.0 gateway.fe.apple-dns.net
+0.0.0.0 
+#
+# added 081120
+# please send response to info@optik-berndt.de !!!!
+# official microsoft telemetry list
+0.0.0.0 telemetry.microsoft.com
+0.0.0.0 events.data.microsoft.com
+0.0.0.0 vortex-win.data.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com
+0.0.0.0 watson.microsoft.com
+0.0.0.0 umwatsonc.telemetry.microsoft.com
+0.0.0.0 blob.core.windows.net
+0.0.0.0 login.live.com
+0.0.0.0 oca.microsoft.com
+0.0.0.0 settings-win.data.microsoft.com
+0.0.0.0 ds.download.windowsupdate.com
